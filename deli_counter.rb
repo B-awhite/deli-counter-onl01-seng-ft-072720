@@ -14,6 +14,7 @@ def line(katz_deli)
   end 
 end
 
+<<<<<<< HEAD
 def take_a_number(array, name)
   array.push(name)
   place = array.index(name)
@@ -28,3 +29,8 @@ def now_serving(array)
     puts "Currently serving #{array.shift}."
   end 
 end 
+=======
+def take_a_number(katz_deli, name)
+  puts "Welcome, #{name}. You are number 1 in line."
+end  
+>>>>>>> 05fa1479b3262b2bcd7e2221101b6ecb50ce2d59
